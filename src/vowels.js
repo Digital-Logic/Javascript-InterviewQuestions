@@ -12,7 +12,7 @@ function countVowels(str) {
 
     let count=0;
 
-    for (const cur of str.toLowerCase().split("")) {
+    for (const cur of str.toLowerCase()) {
         if (vowels.includes(cur))
             ++count;
     }
@@ -26,7 +26,8 @@ function matchVowels(str) {
 
 function filterVowels(str) {
     const vowels = new Set();
-    "aeiou".split("").forEach(c => vowels.add(c));
+    "aeiou".split("")
+        .forEach(c => vowels.add(c));
 
     return str.toLowerCase().split("")
         .filter(c => vowels.has(c))
