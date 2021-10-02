@@ -11,7 +11,7 @@
  * Every solution that is exported from this file will be tested
  */
 
-function stringAppend(str) {
+function appendString(str) {
     let result = "";
 
     for (const s of str) {
@@ -40,8 +40,7 @@ function stringReverse(str) {
 function reduceString(str) {
     return str.split("")
         .reduce((acc, s) => {
-            acc = s + acc;
-            return acc;
+            return s + acc;
         });
 }
 
@@ -56,7 +55,7 @@ function reduceStringTwo(str) {
 
 
 module.exports = {
-    stringAppend,
+    appendString,
     stringArray,
     stringReverse,
     reduceString,
