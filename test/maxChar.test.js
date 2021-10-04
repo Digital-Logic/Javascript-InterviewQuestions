@@ -18,8 +18,7 @@ describe("Max Characters Problem", () => {
                 ["aggressiveness", "s"],
                 ["hello....world", "l"],
                 ["hello_____WORLD", "l"],
-                ["Cat in THE hat!", "t"],
-                ["aaas", "a"],
+                ["Cat in THE haT!", "t"],
            //     ["..,_", ""],
             ])("MaxChar of '%s' should be '%s'", (provided, expected) => {
                 expect(solution(provided) ).toEqual(expected);
