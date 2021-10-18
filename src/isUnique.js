@@ -50,22 +50,22 @@ function intArray(str) {
         if (charMap[code] > 0)
             return false;
 
-        ++charMap[code];
+        charMap[code]++;
     }
     return true;
 }
 
 function extraCredit(str) {
-    let bitMask = 0;
+    let bitArray = 0;
     const A_CODE = "a".charCodeAt(0);
 
     for (const c of str.match(/\w/g)) {
-        const code = 1 << (c.charCodeAt(0) - A_CODE);
+        const bitMask = 1 << (c.charCodeAt(0) - A_CODE);
 
-        if ((bitMask & code) !== 0)
+        if ((bitArray & bitMask) !== 0)
             return false;
 
-        bitMask |= code;
+        bitArray |= bitMask;
     }
     return true;
 }
