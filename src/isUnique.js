@@ -59,7 +59,7 @@ function extraCredit(str) {
     let bitMask = 0;
     const A_CODE = "a".charCodeAt(0);
 
-    for (const c of str.toLowerCase().match(/\w/g)) {
+    for (const c of str.match(/\w/g)) {
         const code = 1 << (c.charCodeAt(0) - A_CODE);
 
         if ((bitMask & code) !== 0)
