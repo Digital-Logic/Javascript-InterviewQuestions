@@ -2,7 +2,7 @@ const solutions = require("../src/anagrams");
 
 
 describe("Anagrams Problem", () => {
-    test("At lest on function is defined", () => {
+    test("At lest one function is defined", () => {
         expect(Object.entries(solutions).length).toBeGreaterThan(0);
     });
 

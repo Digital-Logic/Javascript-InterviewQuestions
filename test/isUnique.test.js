@@ -4,7 +4,7 @@ const solutions = require("../src/isUnique");
  * Fibonacci sequence test
  */
 describe("IsUnique Problem", () => {
-    test("At lest on function is defined", () => {
+    test("At lest one function is defined", () => {
         expect(Object.entries(solutions).length).toBeGreaterThan(0);
     });
 

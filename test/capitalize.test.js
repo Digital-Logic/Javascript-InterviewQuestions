@@ -1,7 +1,7 @@
 const solutions = require("../src/capitalize");
 
 describe("Capitalize Each World Problem", () => {
-    test("At lest on function is defined", () => {
+    test("At lest one function is defined", () => {
         expect(Object.entries(solutions).length).toBeGreaterThan(0);
     });
 
