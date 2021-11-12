@@ -16,8 +16,10 @@ describe("Anagrams Problem", () => {
             test.each([
                 ["Arc", "Car", true],
                 ["Bat", "Rat", false],
-                ["Debit card","Bad credit", true],
-                ["hell", "hel", false]
+                ["D e b i t card","B a d credit", true],
+                ["hell", "hel", false],
+                ["Dor.mit_ory", "D-irty room!", true],
+                ["Listen!", "Silent?", true]
             ])(`"%s" is an Anagram of "%s": %s`, (strA, strB, expected) => {
                 expect(solution(strA, strB)).toEqual(expected);
             });

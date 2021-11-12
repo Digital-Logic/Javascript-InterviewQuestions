@@ -2,7 +2,7 @@
  * Given two strings, write a function that will determine if one string is
  * an anagram of another. An anagram is a string that is formed by rearranging
  * the letters of another string.
- * Ignore capitalization, and spaces. Punctuation will not be included in the provided strings.
+ * Ignore capitalization, punctuation, and spaces.
  *
  * Examples
  * "Arc" is an anagram of "Car"
@@ -11,9 +11,8 @@
  */
 
 function sorted(strA, strB) {
-    const charMatcher = /\w/g;
-    const aryA = strA.toLowerCase().match(charMatcher).sort();
-    const aryB = strB.replace(/\s/,"").toLowerCase().split("").sort();
+    const aryA = strA.toLowerCase().match(/[a-z0-9]/g).sort();
+    const aryB = strB.toLowerCase().replace(/[\W_]/g,"").split("").sort();
 
     if (aryA.length !== aryB.length)
         return false;
@@ -43,7 +42,7 @@ function anagramsCharMap(strA, strB) {
 // convert string to char map
 function toCharMap(str) {
     return str.toLowerCase()
-        .match(/\w/g)
+        .match(/[a-z]/g)
         .reduce((map, c) =>
             map.set(c, map.has(c) ? map.get(c) + 1 : 1
             ), new Map()
