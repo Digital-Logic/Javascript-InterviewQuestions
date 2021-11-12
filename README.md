@@ -33,13 +33,13 @@ npm test 'filename'
 * FizzBuzz https://youtu.be/Clzf8KNoRdI
 * Fibonacci https://youtu.be/eT17-qTNmK0
 * Reverse String https://youtu.be/hEi1mO6SCK0
-* Capitalize
-* Vowels
-* MaxChar
+* Capitalize https://youtu.be/LazSsmcpz44
+* Vowels https://youtu.be/aUm4Y9arfOc
+* isUnique https://youtu.be/u6qaf1IZ9c0
+* MaxChar https://youtu.be/krrdXZJFiUc
+* Palindrome https://youtu.be/pLT781T1oHE
 * Anagrams
-* ArrayChuck
-* isUnique 
-* Palindrome
+* ArrayChuck 
 * ReverseInt
 * MatrixSpiral
 
