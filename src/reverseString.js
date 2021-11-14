@@ -1,4 +1,6 @@
 /**
+ * YouTube: https://youtu.be/hEi1mO6SCK0
+ *
  * Directions
  * Write a function that will return the provided string
  * with the letters in reverse order.
