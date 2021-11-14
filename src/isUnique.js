@@ -1,4 +1,6 @@
 /**
+ * YouTube: https://youtu.be/u6qaf1IZ9c0
+ *
  * Write a function that can determine if a String contains only unique characters.
  * That is a character can only appear once within the string.
  * Ignore capitalization.

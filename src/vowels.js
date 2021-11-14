@@ -1,4 +1,6 @@
 /**
+ * YouTube: https://youtu.be/aUm4Y9arfOc
+ *
  * Write a function that returns the number of vowels in a string.
  * Vowels are the characters a,e,i,o,u.
  * Examples

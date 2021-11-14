@@ -1,6 +1,8 @@
 /**
+ * YouTube: https://youtu.be/krrdXZJFiUc
+ *
  * Write a function that will return the character in the provided string that
- * repeats the most. The returned string, should be lowercase.
+ * repeats the most.
  * Make sure to ignore capitalization, punctuation, and spaces.
  *
  * Examples
