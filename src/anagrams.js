@@ -5,13 +5,13 @@
  * Ignore capitalization, punctuation, and spaces.
  *
  * Examples
- * "Arc" is an anagram of "Car"
- * "Debit card" is an anagram of "Bad credit"
- * "Astronomer!" is an anagram of "Moon starer"
+ * isAnagram("Arc", "Car") => true
+ * isAnagram("Debit card", "Bad credit") => true
+ * isAnagram("Astronomer!", "Moon starer") => true
  */
 
 function isAnagram(strA, strB) {
-
+    return false;
 }
 
 

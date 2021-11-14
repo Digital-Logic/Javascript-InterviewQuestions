@@ -8,7 +8,7 @@
  */
 
 function chuckArray(ary, size) {
-
+    return [];
 }
 
 
