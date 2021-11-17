@@ -11,21 +11,14 @@
  */
 
 function sorted(strA, strB) {
-    const aryA = strA.toLowerCase().match(/[a-z0-9]/g).sort();
-    const aryB = strB.toLowerCase().replace(/[\W_]/g,"").split("").sort();
+    const copyA = strA.toLowerCase().match(/[a-z0-9]/g).sort().join("")
+    const copyB = strB.toLowerCase().replace(/[\W_]/g,"").split("").sort().join("");
 
-    if (aryA.length !== aryB.length)
-        return false;
-
-    for (let i=0; i<aryA.length; ++i) {
-        if (aryA[i] !== aryB[i])
-            return false;
-    }
-    return true;
+    return copyA === copyB;
 }
 
 
-function anagramsCharMap(strA, strB) {
+function charMap(strA, strB) {
     const charMapA = toCharMap(strA);
     const charMapB = toCharMap(strB);
 
@@ -49,8 +42,31 @@ function toCharMap(str) {
         );
 }
 
+function intArray(strA, strB) {
+    const charMap = new Array(26).fill(0);
+
+    const copyA = strA.toLowerCase().replace(/[^a-z]/g, "");
+    const copyB = strB.toLowerCase().replace(/[^a-z]/g, "");
+
+    if (copyA.length !== copyB.length)
+        return false;
+
+    for (const c of copyA)
+        charMap[c.charCodeAt(0) - "a".charCodeAt(0)]++;
+
+    for (const c of copyB)
+        charMap[c.charCodeAt(0) - "a".charCodeAt(0)]--;
+
+    for (const n of charMap)
+        if (n !== 0)
+            return false;
+
+    return true;
+}
+
 
 module.exports = {
     sorted,
-    anagramsCharMap,
+    charMap,
+    intArray
 };
