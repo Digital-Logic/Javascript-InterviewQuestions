@@ -19,14 +19,14 @@ function sorted(strA, strB) {
 
 
 function charMap(strA, strB) {
-    const charMapA = toCharMap(strA);
-    const charMapB = toCharMap(strB);
+    const mapA = toCharMap(strA);
+    const mapB = toCharMap(strB);
 
-    if (charMapA.size !== charMapB.size)
+    if (mapA.size !== mapB.size)
         return false;
 
-    for (const [c, count] of charMapA) {
-        if (charMapB.get(c) !== count)
+    for (const [c, count] of mapA) {
+        if (mapB.get(c) !== count)
             return false;
     }
     return true;
@@ -46,16 +46,13 @@ function intArray(strA, strB) {
     const charMap = new Array(26).fill(0);
 
     const copyA = strA.toLowerCase().replace(/[^a-z]/g, "");
-    const copyB = strB.toLowerCase().replace(/[^a-z]/g, "");
-
-    if (copyA.length !== copyB.length)
-        return false;
-
     for (const c of copyA)
         charMap[c.charCodeAt(0) - "a".charCodeAt(0)]++;
 
+    const copyB = strB.toLowerCase().replace(/[^a-z]/g, "");
     for (const c of copyB)
         charMap[c.charCodeAt(0) - "a".charCodeAt(0)]--;
+
 
     for (const n of charMap)
         if (n !== 0)
