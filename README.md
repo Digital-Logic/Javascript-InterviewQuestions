@@ -1,4 +1,4 @@
-# Interview Questions in Javascript
+# Interview Questions in JavaScript
 
 The aim for this repository is to provide a self-paced series, that 
 you can use to improve your development skills. 
