@@ -18,6 +18,7 @@ describe("Anagrams Problem", () => {
                 ["Bat", "Rat", false],
                 ["D e b i t card","B a d credit", true],
                 ["hell", "hel", false],
+                ["car", "cars", false],
                 ["Dor.mit_ory", "D-irty room!", true],
                 ["Listen!", "Silent?", true]
             ])(`"%s" is an Anagram of "%s": %s`, (strA, strB, expected) => {
