@@ -18,7 +18,7 @@
  */
 
 function matrixSpiral(n) {
-    const grid = Array.from({ length: n }, () => new Array(n).fill(0, 0));
+    const grid = Array.from({ length: n }, () => new Array(n).fill(0));
 
     let top=0,
         left=0,
