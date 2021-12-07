@@ -38,10 +38,10 @@ npm test 'filename'
 * isUnique https://youtu.be/u6qaf1IZ9c0
 * MaxChar https://youtu.be/krrdXZJFiUc
 * Palindrome https://youtu.be/pLT781T1oHE
-* Anagrams
+* Anagrams https://youtu.be/aeGTQbXY32Q
 * ArrayChuck 
-* ReverseInt
-* MatrixSpiral
+* ReverseInt https://youtu.be/wJuHrXRcP6c
+* MatrixSpiral https://youtu.be/GEAPo3zIwKY
 
 
 
