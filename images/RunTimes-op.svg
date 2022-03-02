@@ -1,0 +1,93 @@
+<svg width="8in" height="8in" version="1.1" viewBox="0 0 203.2 203.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="linearGradient1111">
+      <stop style="stop-color:#791208" offset="0"/>
+    </linearGradient>
+    <linearGradient id="linearGradient1868" gradientTransform="translate(39.496 -4.8927)">
+      <stop style="stop-color:#2e8faf" offset="0"/>
+    </linearGradient>
+    <linearGradient id="linearGradient985" gradientTransform="translate(-19.545 -.42764)">
+      <stop style="stop-color:#696766" offset="0"/>
+    </linearGradient>
+    <linearGradient id="linearGradient979" gradientTransform="translate(-424.27 -.10568)">
+      <stop style="stop-color:#bf5d28" offset="0"/>
+    </linearGradient>
+    <linearGradient id="linearGradient987" x1="30.404" x2="183.17" y1="135.61" y2="135.61" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient985"/>
+    <linearGradient id="linearGradient1870" x1="30.559" x2="182.64" y1="166.39" y2="166.39" gradientTransform="translate(0 -1.6317)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1868"/>
+    <linearGradient id="linearGradient1113" x1="30.35" x2="57.636" y1="96.518" y2="96.518" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1111"/>
+  </defs>
+  <g style="display:none">
+    <rect x="-10.784" y="-8.8778" width="227.06" height="221.06" style="fill:#fff;stroke-width:2.54;stroke:#fff"/>
+  </g>
+  <path d="m30.677 171.77c40.032-28.671 72.666-96.524 80.417-150.24" style="fill:none;stroke-width:1.3229;stroke:url(#linearGradient985)"/>
+  <path d="m30.559 164.75h152.08" style="fill:none;stroke-width:1.3229;stroke:url(#linearGradient1870)"/>
+  <path d="m30.677 171.77 153.09-42.772" style="fill:none;stroke-width:1.3229;stroke:url(#linearGradient987)"/>
+  <path d="m30.677 171.77c39.896-13.714 115.43-14.989 151.19-15.805" style="fill:none;stroke-width:1.3229;stroke:url(#linearGradient985)"/>
+  <path d="m30.677 171.77c33.505-19.425 120.39-50.836 152.08-60.354" style="fill:none;stroke-width:1.3229;stroke:url(#linearGradient985)"/>
+  <path d="m30.677 171.77c42.343-30.303 60.015-116.23 64.23-151.45" style="fill:none;stroke-width:1.3229;stroke:url(#linearGradient985)"/>
+  <path d="m30.677 171.77c25.178-14.317 24.503-105.41 26.298-151.05" style="fill:none;stroke-width:1.3229;stroke:url(#linearGradient1113)"/>
+  <path d="m30.677 171.77c18.003-3.3794 15.012-121.41 15.828-151.05" style="fill:none;stroke-width:1.3229;stroke:#791208"/>
+  <rect x="30.677" y="20.398" width="152.38" height="151.37" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m30.174 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m36.811 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m42.947 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m49.297 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m55.219 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m61.498 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m67.133 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m73.269 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m79.62 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m85.613 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m91.683 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m97.955 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m104.13 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 172.57h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 166.46h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 160.34h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 154.23h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 148.11h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 142h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 135.88h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 129.77h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 123.66h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 117.54h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 111.43h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 105.31h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 99.197h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 93.082h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 86.968h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 80.853h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 74.738h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 68.624h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 62.509h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 56.395h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 50.28h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 44.165h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 38.051h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 31.936h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 25.822h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m18.547 19.707h7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <text x="101.23843" y="195.11229" style="fill:url(#linearGradient979);font-family:Roboto;font-feature-settings:normal;font-size:12.7px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="101.23843" y="195.11229" style="fill:url(#linearGradient979);font-family:Roboto;font-feature-settings:normal;font-size:12.7px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;stroke-width:.26458">n</tspan></text>
+  <text x="8.8908777" y="96.456322" style="fill:url(#linearGradient979);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="8.8908777" y="96.456322" style="fill:url(#linearGradient979);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">t</tspan></text>
+  <path d="m110.3 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m116.17 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m122.39 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m128.61 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m134.63 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m140.65 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m146.72 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m152.99 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m158.91 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m165.13 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m171.2 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m177.32 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <path d="m183.24 176.67v7.292" style="fill:none;stroke-width:2.54;stroke:url(#linearGradient979)"/>
+  <text transform="rotate(269.72)" x="-78.796005" y="44.742313" style="fill:url(#linearGradient1111);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="-78.796005" y="44.742313" style="fill:url(#linearGradient1111);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(n!)</tspan></text>
+  <text transform="rotate(-87.535)" x="-52.16608" y="57.255558" style="fill:url(#linearGradient1111);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="-52.16608" y="57.255558" style="fill:url(#linearGradient1111);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(k^n)</tspan></text>
+  <text transform="rotate(-79.63)" x="-38.196491" y="96.858109" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="-38.196491" y="96.858109" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(n^3)</tspan></text>
+  <text transform="rotate(-75.211)" x="-36.76878" y="113.48761" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="-36.76878" y="113.48761" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(n^2)</tspan></text>
+  <text transform="rotate(-19.641)" x="64.938034" y="164.53293" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="64.938034" y="164.53293" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(n log n)</tspan></text>
+  <text transform="rotate(-16.544)" x="97.603188" y="174.42776" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="97.603188" y="174.42776" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(n)</tspan></text>
+  <text transform="rotate(-2.0509)" x="116.1067" y="161.21368" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="116.1067" y="161.21368" style="fill:url(#linearGradient985);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(log n)</tspan></text>
+  <text x="159.75647" y="163.98769" style="fill:url(#linearGradient1868);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;letter-spacing:0px;line-height:1.25;stroke-width:.26458;word-spacing:0px" xml:space="preserve"><tspan x="159.75647" y="163.98769" style="fill:url(#linearGradient1868);font-family:Roboto;font-feature-settings:normal;font-size:10.819px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:900;stroke-width:.26458">O(1)</tspan></text>
+</svg>

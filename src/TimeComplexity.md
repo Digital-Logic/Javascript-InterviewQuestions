@@ -24,6 +24,8 @@ This is called liner time complexity, and is represented as O(n) in Big O notati
 
 We’ve seen an example of liner time complexity, but there are a lot of different run times to be aware of. The following are the most common, but there is no fixed list.
 
+<img src="../images/RunTimes-op.svg" style="float: right;" width="300" title="Run Times" alt="run times" />
+
 - Constant O(1)
 - Logarithmic O(log n)
 - Linear O(n)
