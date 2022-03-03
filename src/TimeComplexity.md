@@ -153,6 +153,8 @@ In this function we have n/2 iteration within the for loop. But just like in the
 
 </details>
 
+<img src="../images/Linear-constant-op.svg" align="right" width="300" title="Run Times" alt="run times" />
+
 Before we move on, try to remember run time complexity does not tell us which algorithm will run faster, all it does is tell us the rate of growth. A linear algorithm may run faster than a constant algorithm for a specific data set of n. The only thing time complexity tells us, is that as the data set increases, the linear algorithm, will require more time to execute, whereas the constant time algorithm won’t be affected.
 
 What’s the time complexity of this function?
