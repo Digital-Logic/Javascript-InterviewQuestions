@@ -1,6 +1,6 @@
 # Run Time Complexity and Bit O Notation
 
-In this article, I will be covering time complexity and big O notation. Check out the video version of this article on YouTube.
+In this article, I will be covering time complexity and big O notation. Check out the video version of this article on [YouTube](https://youtu.be/h7SEzwJR97o).
 
 So what exactly is time complexity? Fundamental, time complexity describe how an algorithm scales. And that is it. But what exactly does that mean? Let’s look at a simple example, written in JavaScript.
 
@@ -14,9 +14,9 @@ function count(n) {
 
 All this function does is print out the numbers from 1 to n inclusively. If we were to execute this function with some value of n, it would take t time. If we doubled the value of n, how much more time would it take? It would take twice as long.
 
-Think of it as the amount of additional work that has to be preformed as the data-set increases. When we double the value of n, we double the number of iterations within the for loop. Twice as much work, will require twice as much time.
+<img title="Linear Time Complexity" alt="Linear Time Complexity Graph" align="right" style="float: right;" width="300" src="../images/LinearGraph-op.svg">
 
-<img title="Linear Time Complexity" alt="Linear Time Complexity Graph" style="float: right;" width="300" src="../images/LinearGraph-op.svg">
+Think of it as the amount of additional work that has to be preformed as the data-set increases. When we double the value of n, we double the number of iterations within the for loop. Twice as much work, will require twice as much time.
 
 If we were to triple the value of n, it would take three times as long. We can plot this out on a graph, where n is on the X axis and time is on the Y axis, and it would look like this.
 
@@ -24,7 +24,7 @@ This is called liner time complexity, and is represented as O(n) in Big O notati
 
 We’ve seen an example of liner time complexity, but there are a lot of different run times to be aware of. The following are the most common, but there is no fixed list.
 
-<img src="../images/RunTimes-op.svg" style="float: right;" width="300" title="Run Times" alt="run times" />
+<img src="../images/RunTimes-op.svg" align="right" width="300" title="Run Times" alt="run times" />
 
 - Constant O(1)
 - Logarithmic O(log n)
@@ -173,11 +173,11 @@ function g(n) {
 <details>
 <summary>Click to expand solution</summary>
 
+<img title="Linear Time Complexity" alt="Linear Time Complexity Graph" align="right" style="float: right;" width="300" src="../images/QuadraticGraph-op.svg">
+
 For each iteration of the outer loop, we have to preform n iteration within the inner loop. You could say that we have to preform n*n work, or n^2 work. The Big O notation would be `O(n^2)`.
 
 </details>
-
-#Add image here
 
 Plotting this function on a graph would look something like this. As the value of n increases, it will take even more time to execute this code, compared to a linear solution.
 
@@ -394,7 +394,7 @@ Logarithmic time complexity is represented as `O(log n)`. A function is logarith
 | ---- |  ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | A | B | C | D | E | F | G | H | I | J |
 
-One approach would be to start at the beginning of the array, and check every single item in order. This solution runs in linear time complexity `O(n)`, sense we may have to check every single item in the array.
+One approach would be to start at the beginning of the array, and check every single item in order. This solution would run in linear time complexity `O(n)`, sense we may have to check every single item in the array.
 
 But because the array is sorted, a faster approach would be to start in the center of the array. If the character that we are looking for, comes before the selected character, then we know that our character is in the beginning half of the array. Then we just continue to cut the result set in half, until we find the character, or run out of items to check.
 
@@ -423,7 +423,7 @@ This is a recursive solution, but you can easily implement it iteratively.
 
 ## Linear Logarithmic Time Complexity O(n log n)
 
-Any algorithm that uses a divide and conquer approach, will have a logarithmic component to it’s time complexity. For example, quick sort, and merge sort both have a runtime of O(n log n). Merge sort takes an array, and splits it into two sub arrays, it then takes both sub arrays and splits them. It continues this process, until each array contains only one element. Each iteration, we copy n elements into a new array, and we have to do this log n times. That’s how we get an n log n runtime. I won’t be going over the code for either sorting algorithms, because the code is fairly complex, and the subject deserves it’s own video.
+Any algorithm that uses a divide and conquer approach, will have a logarithmic component to it’s time complexity. For example, quick sort, and merge sort both have a runtime of O(n log n). Merge sort takes an array, and splits it into two sub arrays, it then takes both sub arrays and splits them. It continues this process, until each array contains only one element. Each iteration, we copy n elements into a new array, and we have to do this log n times. That’s how we get an n log n runtime. I won’t be going over the code for either sorting algorithms, because the code is fairly complex, and the subject deserves its own video.
 
 ## Exponent Time Complexity O(k^n)
 
@@ -459,6 +459,8 @@ function fib(n) {
 <details>
 <summary>Click to expand solution</summary>
 
+<img title="Linear Time Complexity" alt="Linear Time Complexity Graph" align="right" style="float: right;" width="500" src="../images/fib_rec-op.svg">
+
 If we call fib with the value of 5, that single call will result in calling fib with the value of 4, and 3. For every one call to fib, we get two additional calls, until the termination condition is reach. This function's run time complexity is `O(2^n)`. 
 
 Notice that the binary tree, that is generated, is not balance. The left branch contains more nodes than the right branch. Because of this, we could specify a slightly more accurate time complexity of `O(1.618...^n)`, but I don’t think anyone outside academics really cares. `O(2^n)` is accurate enough for big O.
@@ -474,6 +476,8 @@ What do you think the space complexity is for this function?
 
 <details>
 <summary>Click to expand solution</summary>
+
+<img title="Linear Time Complexity" alt="Linear Time Complexity Graph" align="right" style="float: right;" width="500" src="../images/fib_rec_sp-op.svg">
 
 When we execute this function, we start at fib(5), and then travel down the left branch, calling fib(4), and then fib(3), fib(2), and finally fib(1). Once we reach the termination condition for the left branch, we back track to fib(2), and call fib(0). This is called depth first traversal, and it means that we will fully explore the left branch, before moving on to the right branch. It also means that we will never have more than n calls within the call stack at once. So the space complexity for this function is `O(n)`.
 
